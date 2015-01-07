@@ -1,0 +1,53 @@
+\ProvidesPackage{fptitlepage}[2011/08/29 Title page for FP protocolls]
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\makeprotocolltitle}[4]{
+\thispagestyle{empty}
+\begin{titlepage}
+\begin{center}
+% Upper part of the page
+
+\textsc{\Huge Experiment Report}\\[0.5cm]
+\vspace{1em}
+
+Work done within the scope of the Fortgeschrittenenpraktikum\\
+at the Universität Konstanz.
+\vspace{2em}
+
+%Logo
+%\includegraphics[scale=0.4]{Grafiken/UNILOGO.png}\\[0.5cm]
+
+\vspace{3em}
+
+% Title
+\HRule \\[0.4cm]
+{ \huge \bfseries #1} \\ [0.4cm]
+\HRule \\[1.5cm] 
+
+% Author and supervisor
+\emph{Authors:} \\
+{\large Felix Ritzkowsky \& Milan Jubitz}
+
+\vspace{2em}
+\emph{Tutor:} \\
+{\large{#2}} \\
+\vspace{2em}
+
+\emph{Abstract:}\\
+\end{center}
+{\justify #4} \\
+\vspace{2em}
+\begin{center}
+{\large Konstanz, \today}
+
+\vfill
+
+% Bottom of the page
+\rule{\linewidth}{0.2mm}
+Experiment took place the #3 in scope of the physical Fortgeschrittenenpraktikum I, during the winter term 2014/15 at the Universität Konstanz.
+
+\end{center}
+
+\end{titlepage}
+}%
+
+\endinput

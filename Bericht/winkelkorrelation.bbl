@@ -1,0 +1,86 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Jkrieger.}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jkrieger}{J.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{J1}
+  \strng{fullhash}{J1}
+  \field{sortinit}{J}
+  \field{title}{Szizze Photomultiplier}
+\endentry
+
+\entry{Schatz.2008}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Schatz}{S.}%
+     {G{\"u}nter}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weidinger}{W.}%
+     {Alois}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Teubner}%
+  }
+  \keyw{Festk{\"o}rperphysik;Kernphysik}
+  \strng{namehash}{SGWA1}
+  \strng{fullhash}{SGWA1}
+  \field{sortinit}{S}
+  \field{edition}{4., {\"u}berarb. u. erw. Aufl.}
+  \field{isbn}{3835102281}
+  \field{series}{Teubner Studienb{\"u}cher Physik}
+  \field{title}{Nukleare Festk{\"o}rperphysik: Kernphysikalische
+  Me{\ss}methoden und ihre Anwendungen}
+  \list{location}{1}{%
+    {Wiesbaden}%
+  }
+  \field{year}{2008}
+\endentry
+
+\entry{Wikipedia.2014}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wikipedia}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{W1}
+  \strng{fullhash}{W1}
+  \field{sortinit}{W}
+  \field{title}{Radioaktivit{\"a}t --- Wikipedia, Die freie Enzyklop{\"a}die}
+  \verb{url}
+  \verb \url{http://de.wikipedia.org/w/index.php?title=Radioaktivit\%C3\%A4t\&o
+  \verb ldid=137205483}
+  \endverb
+  \field{year}{2014}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
